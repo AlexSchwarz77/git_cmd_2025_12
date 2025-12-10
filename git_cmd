@@ -19,7 +19,10 @@ git show
 git shortlog
 git log
 git help <suchwort>
-
+git remote <name> <adresse>
+git push --set-upstream origin main
+git clone <adresse>
+git pull
 .gitignore
 *.js #alles javascript dateien
 !lib.a #lib.a in der ignore ignorieren
