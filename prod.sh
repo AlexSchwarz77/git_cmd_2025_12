@@ -2,6 +2,7 @@
 # Debug Infos
 set -x
 
+tar -czvf /home/alex/Dokumente/backup/html/web_backup.tar.gz /home/alex/Dokumente/git_html/git_cmd/12-final-version
 # Verzeichnis auswählen
 cd /home/alex/Dokumente/git_html/git_cmd
 
@@ -15,10 +16,10 @@ if [ "$req -gt 0" ]
  		git clone https://github.com/AlexSchwarz77/git_cmd_2025_12.git
 fi
 
+# npm build 4 prod
+npm install --production
 
 
-# Welches Build-Tool? (Maven/Gradle/NPM)
-# npm install --production  = new npm build?
 # alte Website archivieren
 
 # Target/Destination in den /var/www/

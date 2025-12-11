@@ -8,8 +8,11 @@
   "license": "MIT",
   "author": "Me",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
