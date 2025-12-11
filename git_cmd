@@ -23,6 +23,9 @@ git remote <name> <adresse>
 git push --set-upstream origin main
 git clone <adresse>
 git pull
+
+git config credential.helper store # credential speichern
+
 .gitignore
 *.js #alles javascript dateien
 !lib.a #lib.a in der ignore ignorieren
@@ -31,3 +34,12 @@ build/ #inhalt desn ordners ignorieren
 
 .gitkeep
 
+Workflow
+
+git init
+git add .
+git commit -am ""
+git remote add ...
+git push 
+git clone
+git pull
