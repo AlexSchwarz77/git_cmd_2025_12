@@ -19,7 +19,7 @@ fi
 # npm build 4 prod
 npm install --production
 
-
+#
 # alte Website archivieren
 
 # Target/Destination in den /var/www/
