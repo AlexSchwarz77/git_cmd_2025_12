@@ -1,2 +1,34 @@
 node_modules/
 prod.sh
+Service Worker/
+blob_storage/
+Cache/
+CachedConfigurations/
+CachedData/
+CachedProfilesData/
+Code Cache/
+Crashpad/
+DawnGraphiteCache/
+DawnWebGPUCache/
+Dictionaries/
+GPUCache/
+Local Storage/
+logs/
+Shared Dictionary/
+User/
+WebStorage/
+code.lock
+Cookies
+Cookies-journal
+.app.js.swp
+DIPS
+DIPS-wal
+languagepacks.json
+Preferences
+SharedStorage
+machineid
+Network Persistent State
+SharedStorage-wal
+TransportSecurity
+Trust Tokens
+Trust Tokens-journal

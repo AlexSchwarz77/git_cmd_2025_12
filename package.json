@@ -7,13 +7,14 @@
   ],
   "license": "MIT",
   "author": "Me",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "mariadb": "^3.4.5"
   }
 }
