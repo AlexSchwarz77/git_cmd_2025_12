@@ -5,6 +5,7 @@ import fs from 'fs';
 import mariadb from 'mariadb';
 import  pool  from  './db_config/db.js';
 import router from './routes/route.js';
+import bodyParser from 'body-parser';
 
 const app = express();
 const port = 3000;
@@ -26,8 +27,10 @@ const corsOptions = {
 app.use(cors());
 //const server = https.createServer({key: key, cert: cert}, app);
 
-
+app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.json());
 app.use('/api',router);
+
 
 app.listen(port, () => {
  	console.log(`Server listening ${port}`) 
